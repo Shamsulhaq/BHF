@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="HOME" />
+
+
+            <item
+                android:title="Gallery" >
+            <menu>
+                <item
+                    android:id="@+id/nav_photo"
+                    android:icon="@drawable/location"
+                    android:title="Photo Gallery" />
+                <item
+                    android:id="@+id/nav_video"
+                    android:icon="@drawable/bug"
+                    android:title="Video Gallery" />
+            </menu>
+                </item>
+
+
+
+
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About BHF" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/newspaper"
+            android:title="News" />
+    </group>
+
+
+    <item android:title="Contact ">
+        <menu>
+            <item
+                android:id="@+id/nav_location"
+                android:icon="@drawable/location"
+                android:title="Official Location" />
+            <item
+                android:id="@+id/nav_bug_report"
+                android:icon="@drawable/bug"
+                android:title="Bug Report" />
+        </menu>
+    </item>
+
+</menu>
